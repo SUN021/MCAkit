@@ -9,4 +9,4 @@ function [Fhat,Lhat]=PCA(X,r)
 [Y,W,V]=svd(X);
 Fhat= Y(:,1:r)*sqrt(T);
 Lhat= X' * Fhat/T;
-%[Fhat,Lhat]=normalize(Fhat1,Lhat1);
+[Fhat,Lhat]=normalize(Fhat1,Lhat1);
