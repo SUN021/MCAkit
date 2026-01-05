@@ -1,2 +1,2 @@
 # mackit
-replication code for MCA
+Code for “MCA: High-Dimensional Modal Component Analysis towards the Mode”
