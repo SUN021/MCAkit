@@ -31,6 +31,40 @@ AR_forecast_new.m---perform autoregressive regression
 
 AR_DI_forecast_new.m---perform factor-augumented autoregressive regression
 
+## Other Files
+
+EM.m---perform EM iteration in modal regression
+
+mdreg.m---perform modal regression
+
+rq_fnm.m---perform quantile regression
+
+myrlm.m---perform robust linear regression with Huber loss
+
+Robust_sigma.m---compute robust standard deviation
+
+SC.m---Stopping criterion
+
+Psi_Type.m---compute weight for Huber regression
+
+kernel.m---caluculate the value of Gaussian kernel
+
+kernel1.m---caluculate the first derivative of Gaussian kernel
+
+kernel2.m---caluculate the second derivative of Gaussian kernel
+
+kernel_gaussian.m---calculate the value of high-order Gaussian kernel
+
+tratio.m---calculate the trace-ratio statistic of estimated matrix
+
+normalize.m---normalize the factor and loading
+
+FLregularize.m---regularize the factor and loading
+
+mixture_normal.m---generate random variables from the mixtural-normal distribution
+
+skewt_azzalini.m---generate random variables from the Azzalini skew-t distribution
+
 
 
 
